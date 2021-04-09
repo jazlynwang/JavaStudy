@@ -16,6 +16,11 @@ public class Operator {
 		System.out.println(a/b);
 //		模余运算（求余数）
 		System.out.println(a%b);
+//		++自增
+		a++;
+		System.out.println(a);
+//		++a;
+//		System.out.println(a);
 
 	}
 }
