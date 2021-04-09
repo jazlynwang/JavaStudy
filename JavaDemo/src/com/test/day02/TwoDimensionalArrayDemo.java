@@ -5,9 +5,13 @@ package com.test.day02;
 * 类说明
 * 二维数组
 * 内部元素仍然是一维数组的数组
+* 
 * 创建：
 * 一、未初始化数组的元素
 * 数据类型 [] [] 数组名 = new 数据类型 [] []
+* 赋值技巧：
+* 第一个索引确定行
+* 第二个索引确定列
 */
 public class TwoDimensionalArrayDemo {
 	public static void main(String[] args) {
@@ -23,6 +27,7 @@ public class TwoDimensionalArrayDemo {
 		System.out.println(arr2[0][1]);
 //		
 		int [][] arr3 = {{1,2},{3,4,5},{6,7,8,9}};
+//		
 		int [][] arr4 = new int [3][2];
 		arr4[0] = new int [] {1,2};
 		arr4[1] = new int [] {3,4,5};
