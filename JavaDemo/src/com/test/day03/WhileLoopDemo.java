@@ -14,6 +14,7 @@ public class WhileLoopDemo {
 //		} while (x>=0&&x<=5);
 //		System.out.println("最后x为："+x);
 		int y = -1;
+
 		while (y>=0&&y<=5) {
 			System.out.println(y);
 			y++;
